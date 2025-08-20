@@ -1,4 +1,7 @@
 # ClickSphere - Website Performance Analysis
+
+## Project Background
+
 ClickSphere is a growing digital media and e-commerce platform that attracts users through multiple marketing channels, including organic search, paid ads, social media, and referral partners. As the company continues to scale, understanding how users interact with its website has become critical for optimizing both traffic acquisition and user engagement.The leadership team wants to know the surface-level metrics like pageviews and sessions to uncover actionable insights on user behavior, marketing channel effectiveness, and traffic quality. I am part of digital analyst tean, to do a website performance analysis using user, session, and engagement data.
 
 Insights and recommendations are provided on the following key areas:
@@ -46,7 +49,17 @@ Insights and recommendations are provided on the following key areas:
 ### 7. Engagement Rate vs Sessions Over Time
 - Sessions show **strong cyclical fluctuations**, often peaking **100+**.  
 - Engagement rate remains **flat and low**, indicating weak interaction depth.  
-- High traffic does not translate into proportional engagement → focus should shift from **volume to quality engagement**.  
+- High traffic does not translate into proportional engagement → focus should shift from **volume to quality engagement**.
+  
+
+Notebook containing data inspection, cleaning & analysis with python can be found here [link](https://colab.research.google.com/drive/15qqYiF3vXpXnwX-y_xhH7GDZYAUdu6Km?usp=drive_link)
+
+
+## Data Structure & Initial Checks
+
+
+
+
 
 
 
