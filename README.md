@@ -57,6 +57,7 @@ Notebook containing data inspection, cleaning & analysis with python can be foun
 
 ## Data Structure & Initial Checks
 
+![Website Performance]("Screenshot (12).png")
 
 
 
