@@ -57,8 +57,65 @@ Notebook containing data inspection, cleaning & analysis with python can be foun
 
 ## Data Structure & Initial Checks
 
-![Website Performance]("Screenshot (12).png")
+The table consists of 10 columns:
 
+- Column 1: Channel Group
+- Column 2: DateHour
+- Column 3: Users
+- Column 4: Sessions
+- Column 5: Engaged Sessions
+- Column 6: Average engagemnet time per session
+- Column 7: Engaged session per user
+- Column 8: Events per session
+- Column 9: Engagement rate
+- Column 10: Event Count
+
+<img width="1764" height="603" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/34bffaf5-3f1a-4a5b-a962-f60c0b9e21ec" />
+
+# Executive Summary
+
+## Overview of findings – User Traffic & Engagement Analysis
+
+- **Strong Traffic Volume**  
+  - Total sessions show **consistent daily cycles**, peaking above **100+ sessions/day**.  
+  - **Sessions consistently exceed users**, confirming repeat visits within the same day.  
+
+- **Top Traffic Channels**  
+  - **Organic Social** dominates with ~**50k users**, highest sessions, and strong engagement.  
+  - **Direct traffic** follows (~**30k users**), indicating strong brand recall but lower engagement intent.  
+  - **Organic Search & Referral** contribute ~**27k–28k users each**, with **Referral driving higher-quality, engaged sessions**.  
+
+- **Engagement Patterns**  
+  - **Organic Video** shows the **highest average engagement (~180s)** but is inconsistent.  
+  - **Referral traffic** delivers **steady engagement (~95s)** with low variability → high-quality source.  
+  - **Direct, Organic Social, and Organic Search** have **short but stable sessions (~45–52s)**.  
+  - **Email campaigns** are inconsistent, ranging from **very high to near-zero engagement**.  
+
+- **Traffic by Time of Day**  
+  - **Organic Social peaks (19:00, ~3.5k visits)**, sustaining strong activity between **10:00–20:00**.  
+  - **Direct traffic** is steady, peaking late evening (**23:00, ~2.6k visits**).  
+  - **Referral traffic** peaks around **11:00 (1.8k)** and **21:00 (1.8k)**.  
+  - **Email & Organic Video** remain minimal contributors.  
+
+- **Engagement Rate vs Sessions**  
+  - Despite **traffic spikes**, engagement rate remains **flat and very low**, showing users visit but do not interact deeply.
+ 
+
+
+
+
+
+
+
+
+
+## 📌 Strategic Priorities
+1. **Double Down on Organic Social & Referral** – Top drivers of traffic and engagement quality.  
+2. **Fix Engagement Gap** – Focus on **on-site experience & conversion optimization** to turn traffic into meaningful interactions.  
+3. **Optimize Underperformers (Email & Organic Video)** – Either revamp strategy or reallocate resources.  
+4. **Track & Clean Up Unassigned Traffic** – Ensure proper tagging to avoid data blind spots.  
+
+➡️ **Bottom Line:** Traffic volume is strong and consistent, but **engagement is the weak link**. The next growth lever lies in **quality engagement, not just more sessions**.
 
 
 
