@@ -1,61 +1,23 @@
 # ClickSphere - Website Performance Analysis
 
-## Project Background
+# Project Background
 
 ClickSphere is a growing digital media and e-commerce platform that attracts users through multiple marketing channels, including organic search, paid ads, social media, and referral partners. As the company continues to scale, understanding how users interact with its website has become critical for optimizing both traffic acquisition and user engagement.The leadership team wants to know the surface-level metrics like pageviews and sessions to uncover actionable insights on user behavior, marketing channel effectiveness, and traffic quality. I am part of digital analyst tean, to do a website performance analysis using user, session, and engagement data.
 
 Insights and recommendations are provided on the following key areas:
 
-### 1. Sessions & Users Over Time
-- Clear **daily cycle** with traffic peaks during working hours and dips at night.  
-- **Sessions consistently exceed users**, meaning repeat visits within a day.  
-- Noticeable spikes (e.g., mid and end of month) likely tied to **campaigns or promotions**.  
-- Overall engagement is **steady with no major drop-offs**.  
-
-### 2. Channel Contribution
-- **Organic Social** dominates (~50k users), making it the top driver of traffic.  
-- **Direct traffic** is strong (~30k), showing brand loyalty and recall.  
-- **Organic Search** & **Referral** (~27k–28k) are consistent performers.  
-- **Email** and **Organic Video** underperform with minimal contributions.  
-- Small share of **Unassigned traffic**, likely due to **tracking gaps**.  
-
-### 3. Engagement by Channel
-- **Highest Engagement:** Organic Video (~180s), though inconsistent.  
-- **Moderate Engagement:** Referral (~95s, consistent), Unassigned (~80s, variable).  
-- **Lowest Engagement:** Direct (~45s), Organic Social (~52s), Organic Search (~47s).  
-- **Email:** Unstable engagement (~72s) with high variability across campaigns.  
-
-### 4. Engagement Rates
-- **Referral & Organic Search** → Strongest, with consistent median engagement.  
-- **Organic Social** → Promising, but variable.  
-- **Direct Traffic** → Moderate, steady but limited growth potential.  
-- **Email** → Extremely variable (0–1.0), depending on campaign quality.  
-- **Unassigned & Organic Video** → Weak engagement overall.  
-
-### 5. Engaged vs Non-Engaged Sessions
-- **Organic Social, Referral, and Organic Search** drive **more engaged than non-engaged sessions** → high-quality audiences.  
-- **Direct Traffic** → Slightly more non-engaged sessions → weaker intent.  
-- **Email & Organic Video** → Minimal impact.  
-- **Unassigned** → Very small, but points to tracking issues.  
-
-### 6. Hourly Traffic Trends
-- **Organic Social** peaks between **10:00–20:00**, maxing at **19:00 (~3.5k visits)**.  
-- **Direct Traffic** is steady, with late evening spikes (**23:00 ~2.5k visits**).  
-- **Email** → Almost negligible, except minor traffic at **2:00 and 19:00**.  
-- **Organic Search** → Strong in midday (**10:00–18:00**) with peaks at **15:00 & 19:00**.  
-- **Referral** → Consistent contributor with peaks at **11:00 & 21:00**.  
-- **Unassigned** → Small, peaking at **15:00 & 19:00 (~38 visits)**.  
-
-### 7. Engagement Rate vs Sessions Over Time
-- Sessions show **strong cyclical fluctuations**, often peaking **100+**.  
-- Engagement rate remains **flat and low**, indicating weak interaction depth.  
-- High traffic does not translate into proportional engagement → focus should shift from **volume to quality engagement**.
-  
+#### 1. Sessions & Users Over Time
+#### 2. Channel Contribution
+#### 3. Engagement by Channel
+#### 4. Engagement Rates
+#### 5. Engaged vs Non-Engaged Sessions
+#### 6. Hourly Traffic Trends
+#### 7. Engagement Rate vs Sessions Over Time
 
 Notebook containing data inspection, cleaning & analysis with python can be found here [link](https://colab.research.google.com/drive/15qqYiF3vXpXnwX-y_xhH7GDZYAUdu6Km?usp=drive_link)
 
 
-## Data Structure & Initial Checks
+# Data Structure & Initial Checks
 
 The table consists of 10 columns:
 
@@ -70,11 +32,15 @@ The table consists of 10 columns:
 - Column 9: Engagement rate
 - Column 10: Event Count
 
+
+
 <img width="1764" height="603" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/34bffaf5-3f1a-4a5b-a962-f60c0b9e21ec" />
+
 
 # Executive Summary
 
 ## Overview of findings – User Traffic & Engagement Analysis
+
 
 - **Strong Traffic Volume**  
   - Total sessions show **consistent daily cycles**, peaking above **100+ sessions/day**.  
@@ -99,29 +65,16 @@ The table consists of 10 columns:
 
 - **Engagement Rate vs Sessions**  
   - Despite **traffic spikes**, engagement rate remains **flat and very low**, showing users visit but do not interact deeply.
+
  
 
+# Insights Deep Dive
 
 
 
 
+<img width="860" height="513" alt="1" src="https://github.com/user-attachments/assets/f793c761-b116-4dcf-a3a0-02d6e3fdecce" />
 
-
-
-
-## 📌 Strategic Priorities
-1. **Double Down on Organic Social & Referral** – Top drivers of traffic and engagement quality.  
-2. **Fix Engagement Gap** – Focus on **on-site experience & conversion optimization** to turn traffic into meaningful interactions.  
-3. **Optimize Underperformers (Email & Organic Video)** – Either revamp strategy or reallocate resources.  
-4. **Track & Clean Up Unassigned Traffic** – Ensure proper tagging to avoid data blind spots.  
-
-➡️ **Bottom Line:** Traffic volume is strong and consistent, but **engagement is the weak link**. The next growth lever lies in **quality engagement, not just more sessions**.
-
-
-
-
-
-## Insights from Sessions & Users Over Time
 
 - **Consistent Daily Pattern**  
   Both sessions and users follow a clear **daily cycle** with peaks during specific hours (likely working hours) and dips late at night.  
@@ -135,41 +88,27 @@ The table consists of 10 columns:
 - **Steady Growth**  
   Overall, both sessions and users show relatively **stable engagement across the month**, without drastic drop-offs.  
 
-## Recommendations
-
-- **Leverage Peak Hours**  
-  Focus marketing campaigns, product launches, or email pushes during high-traffic hours to maximize visibility.  
-
-- **Boost Engagement During Lows**  
-  Introduce retention tactics (notifications, discounts, or new content) to encourage activity during off-peak hours.  
-
-- **Investigate Spikes**  
-  Analyze what caused the traffic surges (18th, 30th). If tied to campaigns, replicate strategies for future growth.  
-
-- **Optimize Returning User Experience**  
-  Since sessions > users, enhance features for repeat visitors (personalization, loyalty programs) to sustain engagement.
 
 
-## 📊 Insights & Recommendations
 
-### 🔍 Insights
+<img width="725" height="557" alt="2" src="https://github.com/user-attachments/assets/327c43a1-52b0-4d2c-8394-3f0ac848285a" />
+
+
 - **Organic Social** is the leading channel, driving nearly **50,000 users**, making it the top source of traffic.
 - **Direct traffic** is the second-largest contributor, with around **30,000 users**, indicating strong brand recall and customer loyalty.
 - **Organic Search** and **Referral** channels are almost at the same level (~27k–28k users), showing consistent performance but with room for growth.
 - **Email** and **Organic Video** are underperforming, contributing very little to overall users.
 - **Unassigned traffic** exists, though minimal, which could indicate **tracking issues**.
 
-### ✅ Recommendations
-- **Double down on Organic Social**: Invest more in high-performing platforms, content, and campaigns that are driving this large share of traffic.  
-- **Strengthen Direct & Referral channels**: Enhance customer retention programs and partnerships that encourage repeat visits and referral traffic.  
-- **Optimize SEO strategy**: Target high-intent keywords and optimize existing content to push **Organic Search** beyond its current plateau.  
-- **Revamp Email & Video campaigns**: Experiment with **personalized email campaigns** and **short-form video content** to capture more users.  
-- **Fix tracking gaps**: Address the **Unassigned channel** by improving analytics implementation to ensure all traffic is attributed correctly.  
 
-# 📊 Channel Engagement Analysis
 
-## 🔍 Insights
-- **Highest Engagement – Organic Video**
+ 
+
+
+<img width="705" height="557" alt="3" src="https://github.com/user-attachments/assets/5a99f103-54d4-4031-8d8a-49b81cff1a99" />
+
+
+ **Highest Engagement – Organic Video**
   - Drives the **longest average engagement (~180s)**, far exceeding other channels.
   - Shows **large variability (wide error bars)** → performance is inconsistent.
 
@@ -183,34 +122,16 @@ The table consists of 10 columns:
 
 - **Email Engagement – Unstable**
   - Average engagement (~72s) but with **very high variability** → campaign quality strongly impacts outcomes.
-
----
-
-## ✅ Recommendations
-- **Leverage Organic Video**
-  - Invest in **video content strategy** (educational, storytelling).
-  - Standardize best-performing formats to reduce inconsistency.
-
-- **Optimize Referral Partnerships**
-  - Strengthen and expand referrals since they **consistently drive quality engagement**.
-  - Identify best referral sources and scale them.
-
-- **Improve Direct, Social & Search**
-  - Enhance **landing page experience** and content targeting for better depth.
-  - Experiment with **personalization** to increase engagement.
-
-- **Stabilize Email Campaigns**
-  - Use **A/B testing** (subject lines, audience segmentation).
-  - Focus on **value-driven content** (exclusive offers, insights).
-
-- **Cross-Channel Strategy**
-  - Integrate **video into email & social campaigns** to lift performance.
-  - Apply **referral learnings** to improve targeting in other channels.
+  - 
 
 
-# 📊 Engagement Rate Analysis by Channels
 
-## 🔎 Insights
+  
+  
+<img width="701" height="557" alt="4" src="https://github.com/user-attachments/assets/455ef1b4-0ddb-4a4d-ab4a-75d57aa58bff" />
+
+
+
 1. **Referral & Organic Search Perform Best**  
    - Median engagement rate is higher for **Referral** and **Organic Search** channels compared to others.  
    - These channels also show a tighter spread, indicating **consistent engagement**.
@@ -230,21 +151,14 @@ The table consists of 10 columns:
 5. **Unassigned & Organic Video Underperform**  
    - Both show **very low engagement rates**.  
    - Either due to poor tracking (unassigned) or lack of effective video strategy.
-
----
-
-## ✅ Recommendations
-1. **Double Down on Referral & Organic Search**  
-   - Invest more in **SEO strategies** and **partnership-driven referral programs**.  
-   - Focus on keyword optimization and content partnerships.
-
-2. **Stabilize Organic Social Engagement**  
-   - Analyze high-performing posts to identify **content patter**
+  
 
 
-# 📊 Insights & Recommendations
+<img width="725" height="557" alt="5" src="https://github.com/user-attachments/assets/7c2fe63f-cf92-45a7-b534-1c93c31aa00a" />
 
-## 🔍 Insights
+
+
+
 1. **Organic Social**
    - Highest number of sessions overall.  
    - Engaged sessions are significantly higher than non-engaged, showing strong user interest and interaction.  
@@ -264,91 +178,50 @@ The table consists of 10 columns:
    - Very low or negligible engagement, signaling underutilization or weak performance.  
 
 6. **Unassigned Traffic**
-   - Minimal volume, but may indicate tracking or tagging issues.  
-
----
-
-## ✅ Recommendations
-1. **Double Down on Organic Social & Referral**  
-   - Invest more in social campaigns and referral partnerships, as these channels show high engagement.  
-   - Consider boosting budget allocation, influencer collaborations, and community-building.  
-
-2. **Optimize Direct Traffic**  
-   - Improve landing page experiences and calls-to-action (CTAs) for direct visitors.  
-   - Segment direct traffic sources (e.g., bookmarks, offline campaigns, untagged links) to understand behavior better.  
-
-3. **Strengthen SEO Strategy**  
-   - Since organic search is already performing well, focus on long-tail keywords and content marketing.  
-   - Monitor bounce rates and refine high-traffic but low-engagement keywords.  
-
-4. **Revisit Email & Video Strategy**  
-   - For **email**: personalize subject lines, improve segmentation, and enhance CTA clarity.  
-   - For **video**: optimize titles/thumbnails, cross-promote on social, and embed in high-traffic pages.  
-
-5. **Fix Tracking for “Unassigned”**  
-   - Review UTM parameters and analytics setup to reduce unassigned traffic.  
-   - Ensure proper tagging in campaigns for accurate attribution.  
+   - Minimal volume, but may indicate tracking or tagging issues.
+  
 
 
 
-# 📊 Insights & Recommendations: Traffic by Hours & Channel
-
-## 🔎 Key Insights
-1. **Organic Social dominates**  
-   - Highest traffic volumes are consistently observed through *Organic Social*, peaking between **10:00–20:00 hours**.
-   - Peak traffic occurs at **19:00 (3469 visits)** and **20:00 (3206 visits)**.
-
-2. **Direct traffic remains steady**  
-   - Direct channel traffic is consistently high across all hours, with noticeable spikes in the **late evening (23:00 with 2581 visits)**.
-
-3. **Email channel underperforms**  
-   - Email contributes almost **zero traffic** throughout the day, except for **small activity at 2:00, 19:00**.
-
-4. **Organic Search shows midday strength**  
-   - Organic Search performs well in **10:00–18:00 hours**, peaking at **15:00 (1898 visits)** and **19:00 (1887 visits)**.
-
-5. **Referral traffic is moderate**  
-   - Traffic from referrals peaks at **11:00 (1790)** and **21:00 (1799)**.
-   - Consistently contributes in the range of **500–1700 visits**.
-
-6. **Unassigned traffic is small but present**  
-   - Peaks at **15:00 (38)** and **19:00 (38)**.
-   - Represents minor traffic, possibly from untracked campaigns.
-
----
-
-## 💡 Recommendations
-1. **Capitalize on Organic Social peak hours**  
-   - Schedule high-priority content, ads, or promotions between **18:00–21:00** when Organic Social is at its strongest.
-   - Experiment with reels, live sessions, or trending formats to maximize reach.
-
-2. **Re-engage Email as a channel**  
-   - Current engagement is minimal; optimize subject lines, personalization, and send times.
-   - Test campaigns around **early morning (8–10 AM)** or **evening (19–21 PM)** where other channels peak.
-
-3. **Optimize Direct & Organic Search overlap**  
-   - Direct & Search both show strong traffic in evenings; ensure **landing pages and CTAs** are optimized for conversions.
-   - Implement A/B testing on **checkout flows** during high-traffic windows.
-
-4. **Strengthen Referral partnerships**  
-   - Since Referral traffic peaks at **11:00 & 21:00**, collaborate with affiliates/blogs to push promotions during these hours.
-
-5. **Investigate Unassigned traffic**  
-   - Likely due to **poor tracking or missing UTM parameters**.
-   - Improve analytics tagging to correctly classify and measure performance.
-
-6. **Cross-channel strategy**  
-   - Drive synergy: push Email reminders when Organic Social traffic spikes, or retarget Referral users via Social Ads.
-
----
-
-✅ **Action Plan:** Focus on **Organic Social & Direct** for growth, optimize **Email campaigns**, and improve **attribution tracking** for better decision-making.
 
 
 
-# 📊 Engagement Rate vs Sessions Over Time
 
-## 🔍 Insights
+<img width="941" height="658" alt="6" src="https://github.com/user-attachments/assets/970b1521-ff1a-4c08-a0e4-e37c4cff4d45" />
+
+
+
+
+
+
+1. **Top Traffic Channels**
+- **Organic Social** dominates traffic across all hours, especially during **midday (10 AM – 4 PM)** and again around **8–10 PM**, peaking **above 3,500**.  
+- **Direct** and **Organic Search** consistently contribute **medium-to-high traffic**, with peaks in the **evening (7 PM – 11 PM)**.  
+- **Email** is almost negligible (**close to zero all day**).  
+- **Organic Video** shows **modest traffic**, performing slightly better in **evenings**.  
+- **Referral** maintains **stable but low traffic** throughout the day.  
+
+
+2. **Hourly Patterns**
+- **Morning (6 AM – 9 AM):** Moderate traffic across **Direct, Organic Search, and Social**.  
+- **Midday (10 AM – 4 PM):** **Highest traffic** for **Organic Social** and strong performance in **Organic Search**.  
+- **Evening (7 PM – 11 PM):** **Second-highest traffic window** across almost all channels, suggesting strong user engagement **post-work hours**.  
+- **Late Night (12 AM – 5 AM):** **Sharp traffic drop** across all channels.  
+
+
+3. **Unassigned Traffic**
+- Small but steady contribution across hours (**10–38**), suggesting **tracking or attribution gaps**.  
+
+  
+
+
+
+  
+   
+<img width="895" height="479" alt="7" src="https://github.com/user-attachments/assets/f013d71e-f75d-4c34-a677-3836fd074c9f" />
+
+
+
 1. **High Session Fluctuations**  
    - The number of sessions shows a strong cyclical pattern with noticeable daily spikes and drops.  
    - Peaks cross **100+ sessions** frequently, while dips go down to **20–30 sessions**.  
@@ -359,34 +232,51 @@ The table consists of 10 columns:
 
 3. **Mismatch Between Traffic & Engagement**  
    - Despite session spikes, engagement rate does not scale up.  
-   - This indicates that **users visit but do not interact deeply** with the platform.  
-
----
-
-## ✅ Recommendations
-1. **Improve Content Quality & Relevance**  
-   - Optimize landing pages to ensure visitors find value immediately.  
-   - Introduce personalized recommendations, better UX, and interactive elements.  
-
-2. **Targeted Retention Strategies**  
-   - Use email campaigns, push notifications, or loyalty rewards to encourage repeat engagement.  
-   - Run A/B tests on key pages to identify what drives higher interaction.  
-
-3. **Analyze Drop-off Points**  
-   - Track user journeys to identify where engagement fails (bounce rates, session duration).  
-   - Fix bottlenecks such as poor navigation, irrelevant content, or slow load times.  
-
-4. **Quality Traffic Acquisition**  
-   - Focus on bringing **high-intent users** via targeted marketing instead of only increasing session count.  
-   - Invest in channels that bring engaged users rather than volume-driven traffic.  
-
----
-
-## 📌 Conclusion
-- **Sessions are healthy and consistent, but engagement is lacking.**  
-- Efforts should shift from **acquiring traffic** to **converting and retaining engaged users**.
-
-
-
-
+   - This indicates that **users visit but do not interact deeply** with the platform.
   
+
+
+# Recommendations 
+
+
+### 1. Align Marketing With Peak Session Hours  
+- User sessions consistently spike above 80–100 during certain hours, but engagement rates remain flat.  
+- **Recommendation:** Concentrate ad spend, push notifications, and campaign launches during these high-traffic windows.  
+- **Why:** Ensures maximum ROI by capturing audiences when they are most active.  
+
+
+### 2. Focus on Engagement Quality Over Traffic Volume  
+- Engagement rate remains nearly zero despite large session fluctuations.  
+- **Recommendation:** Redesign landing pages, improve CTAs, and personalize user experiences to make sessions meaningful.  
+- **Why:** Converting traffic into engaged users will have greater long-term business impact than raw session counts.  
+
+
+
+### 3. Reduce Drop-Off During Session Surges  
+- Even with session surges above 100, engagement does not scale up.  
+- **Recommendation:** Introduce retention features like in-session surveys, gamified elements, or chatbots.  
+- **Why:** Keeps users from bouncing and increases interaction before session exit.  
+
+
+
+### 4. Test & Iterate on Content and Features  
+- Flat engagement line signals low influence from current features or content.  
+- **Recommendation:** Run A/B tests with interactive formats such as videos, quizzes, or micro-conversions.  
+- **Why:** Helps identify what resonates with users and drives higher engagement rates.  
+
+
+### 5. Segment Engagement by Channel Group  
+- Sessions are high across all channels, but engagement rates stay low across the board.  
+- **Recommendation:** Break down performance by channel (organic, paid, referral, direct) and tailor engagement tactics for each.  
+  - **Organic:** Stronger CTAs and optimized landing pages  
+  - **Paid:** Retargeting campaigns to re-engage non-converters  
+  - **Referral:** Loyalty programs or referral rewards  
+- **Why:** Channel-specific strategies prevent wasted effort and maximize ROI.  
+
+
+
+
+
+
+
+
